@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/carddesign/static/css/main.64c4ddf1.css",
+    "main.js": "/carddesign/static/js/main.f74cceae.js",
+    "static/js/453.afa8e4ca.chunk.js": "/carddesign/static/js/453.afa8e4ca.chunk.js",
+    "static/media/TheFuture-Bold.otf": "/carddesign/static/media/TheFuture-Bold.9704c203b4c68d9f62d3.otf",
+    "static/media/TheFuture-Medium.otf": "/carddesign/static/media/TheFuture-Medium.fc82425e5282a507a516.otf",
+    "static/media/TheFuture-Black.otf": "/carddesign/static/media/TheFuture-Black.e0a8dda6958b44a0493a.otf",
+    "static/media/TheFuture-Extralight.otf": "/carddesign/static/media/TheFuture-Extralight.99d319fc71f2e3d47c2e.otf",
+    "static/media/TheFuture-Light.otf": "/carddesign/static/media/TheFuture-Light.da54bca0e50942598383.otf",
+    "static/media/TheFuture-Thin.otf": "/carddesign/static/media/TheFuture-Thin.b8184dc2ee342cea7bed.otf",
+    "static/media/TheFuture-Regular.otf": "/carddesign/static/media/TheFuture-Regular.ab39f64ad845953416db.otf",
+    "static/media/digital-card-light.webp": "/carddesign/static/media/digital-card-light.d1da135a031a26232bf3.webp",
+    "static/media/digital-card-dark.webp": "/carddesign/static/media/digital-card-dark.480938f69dfd94a9be1e.webp",
+    "static/media/visaBusinessBlue.svg": "/carddesign/static/media/visaBusinessBlue.48361b2e7b4191e4a76d9515d732b360.svg",
+    "static/media/visaBusinessSilver.svg": "/carddesign/static/media/visaBusinessSilver.07a214ebdc4d7681bd71a0ff525a2ca3.svg",
+    "static/media/visaBusinessWhite.svg": "/carddesign/static/media/visaBusinessWhite.86782c27c485a02f962e09d9ab0ada28.svg",
+    "static/media/visaPlatinumBlue.svg": "/carddesign/static/media/visaPlatinumBlue.34c413672479cdbfe97e1a508588ed77.svg",
+    "static/media/visaPlatinumSilver.svg": "/carddesign/static/media/visaPlatinumSilver.d796fecf3977909eb44192266cd11874.svg",
+    "static/media/visaPlatinumWhite.svg": "/carddesign/static/media/visaPlatinumWhite.ab162a4745484bf765b77628cf73e33d.svg",
+    "static/media/Phone-Black.webp": "/carddesign/static/media/Phone-Black.245d34d92943387fb901.webp",
+    "static/media/spinner.svg": "/carddesign/static/media/spinner.2290c208712189b8b431e07f398ad57c.svg",
+    "index.html": "/carddesign/index.html",
+    "main.64c4ddf1.css.map": "/carddesign/static/css/main.64c4ddf1.css.map",
+    "main.f74cceae.js.map": "/carddesign/static/js/main.f74cceae.js.map",
+    "453.afa8e4ca.chunk.js.map": "/carddesign/static/js/453.afa8e4ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64c4ddf1.css",
+    "static/js/main.f74cceae.js"
+  ]
+}
