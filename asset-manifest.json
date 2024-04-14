@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/carddesign/static/css/main.64c4ddf1.css",
-    "main.js": "/carddesign/static/js/main.2c2d46c1.js",
+    "main.js": "/carddesign/static/js/main.f5c433eb.js",
     "static/js/453.afa8e4ca.chunk.js": "/carddesign/static/js/453.afa8e4ca.chunk.js",
     "static/media/TheFuture-Bold.otf": "/carddesign/static/media/TheFuture-Bold.9704c203b4c68d9f62d3.otf",
     "static/media/TheFuture-Medium.otf": "/carddesign/static/media/TheFuture-Medium.fc82425e5282a507a516.otf",
@@ -22,11 +22,11 @@
     "static/media/spinner.svg": "/carddesign/static/media/spinner.2290c208712189b8b431e07f398ad57c.svg",
     "index.html": "/carddesign/index.html",
     "main.64c4ddf1.css.map": "/carddesign/static/css/main.64c4ddf1.css.map",
-    "main.2c2d46c1.js.map": "/carddesign/static/js/main.2c2d46c1.js.map",
+    "main.f5c433eb.js.map": "/carddesign/static/js/main.f5c433eb.js.map",
     "453.afa8e4ca.chunk.js.map": "/carddesign/static/js/453.afa8e4ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64c4ddf1.css",
-    "static/js/main.2c2d46c1.js"
+    "static/js/main.f5c433eb.js"
   ]
 }
