@@ -22,7 +22,7 @@ const Home = () => {
                         <p className='my-5 mx-5 md:mx-0'>The easy way to create digital card art for mobile digital wallet apps <br className='hidden lg:block' /> that adheres to Visa’s guidelines.</p>
                     </div>
                     <div className='flex flex-col items-center mt-2 md:mt-0'>
-                        <Link to="/card_design" onClick={resetStates}>
+                        <Link to="/carddesign/card_design" onClick={resetStates}>
                             <button className={`primary-button ${darkMode ? 'dark-mode' : ''}`}>
                                 Get started
                             </button>

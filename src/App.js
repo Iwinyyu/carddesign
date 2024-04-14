@@ -19,8 +19,8 @@ const App = () => {
           <BrowserRouter>
             <Topbar />
             <Routes>
-              <Route index element={<Home />} />
-              <Route path="/card_design" element={<CardDesign />} />
+              <Route path='/carddesign/' element={<Home />} />
+              <Route path="/carddesign/card_design" element={<CardDesign />} />
               <Route path="/card_preview" element={<CardPreview />} />
             </Routes>
           </BrowserRouter>

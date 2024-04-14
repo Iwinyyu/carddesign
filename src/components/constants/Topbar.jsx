@@ -22,9 +22,10 @@ export default function Topbar() {
     } = useGlobalState();
 
     const isCardPreviewPage = location.pathname === '/card_preview';
-    const isHomePage = location.pathname === '/';
-    const isCardDesignPage = location.pathname === '/card_design';
+    const isHomePage = location.pathname === '/carddesign/';
+    const isCardDesignPage = location.pathname === '/carddesign/card_design';
     const isSigninPage = location.pathname === '/login';
+    console.log(location.pathname + "      IMPORTANT")
 
 
     useEffect(() => {
@@ -42,7 +43,7 @@ export default function Topbar() {
 
     const productSelectStep = () => {
         if (window.location.pathname === '/card_preview') {
-            navigate('/card_design');
+            navigate('/carddesign/card_design');
             setStep(1);
         } else {
             setStep(1);
@@ -51,7 +52,7 @@ export default function Topbar() {
 
     const backgroundSelectStep = () => {
         if (window.location.pathname === '/card_preview') {
-            navigate('/card_design');
+            navigate('/carddesign/card_design');
             setStep(2);
         } else {
             setStep(2);
@@ -59,7 +60,7 @@ export default function Topbar() {
     }
     const elementsSelectStep = () => {
         if (window.location.pathname === '/card_preview') {
-            navigate('/card_design');
+            navigate('/carddesign/card_design');
             setStep(3);
         } else {
             setStep(3);
@@ -85,13 +86,13 @@ export default function Topbar() {
                 aria-label="Global"
             >
                 <div className="brand md:flex lg:flex-1 justify-start items-center gap-6">
-                    <Link to='/' onClick={resetStates}>
+                    <Link to='/carddesign/' onClick={resetStates}>
                         <span className={`text-sm md:text-2xl cursor-pointer font-medium ${location.pathname === '/card_preview' ? 'imp' : ''} `}>
                             Swipe
                         </span>
                     </Link>
                 </div>
-                <div className={`segmented-button hidden lg:flex justify-items-center items-center ${darkMode ? 'dark-mode' : ''} ${location.pathname === '/' || location.pathname === '/dashboard' ? 'lg:hidden' : ''}`}>
+                <div className={`segmented-button hidden lg:flex justify-items-center items-center ${darkMode ? 'dark-mode' : ''} ${isHomePage || location.pathname === '/dashboard' ? 'lg:hidden' : ''}`}>
                     <div onClick={productSelectStep} className={`border cursor-pointer w-40 text-sm gap-2 flex items-center justify-center h-12 rounded-3xl rounded-r-none px-3 ${step === 1 && location.pathname === '/card_design' ? 'active-step' : ''} `}>
                         <CubeIcon darkMode={darkMode} step={step} />
                         <span className={`font-medium  ${darkMode && step > 0
